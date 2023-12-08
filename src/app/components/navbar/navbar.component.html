@@ -12,7 +12,10 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div
+      class="collapse navbar-collapse justify-content-between"
+      id="navbarNav"
+    >
       <ul class="navbar-nav">
         <li class="nav-item">
           <a
@@ -48,7 +51,7 @@
           >
         </li>
       </ul>
-      <h6 *ngIf="utente">Benvenuto {{ utente.user.nome }}</h6>
+      <h6 class="ma-auto" *ngIf="utente">Benvenuto {{ utente.user.nome }}</h6>
       <button
         type="button"
         class="btn btn-danger ms-2 float-end"

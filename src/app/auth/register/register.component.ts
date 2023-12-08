@@ -13,7 +13,7 @@ export class RegisterComponent implements OnInit {
   constructor(private authSrv: AuthService, private router: Router) { }
 
   ngOnInit(): void {
-    this.authSrv.restore()
+    
   }
 
   registra(form: NgForm) {
@@ -22,7 +22,7 @@ export class RegisterComponent implements OnInit {
            
     } catch (error: any) {
       alert(error);
-      this.router.navigate(['register'])
+      this.router.navigate(['/register'])
     }
   }
 }

@@ -13,6 +13,13 @@
       "nome": "Antonio",
       "cognome": "Bertuccio",
       "id": 3
+    },
+    {
+      "email": "ale.anghe@gmail.com",
+      "password": "$2a$10$mpr6rPYF/fq5Vu9VqFw6jO.Q.17CGCNPPU56pROKDtN4tAvidbITS",
+      "nome": "Ale",
+      "cognome": "Angheben",
+      "id": 4
     }
   ],
   "favorites": [
