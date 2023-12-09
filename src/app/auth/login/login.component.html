@@ -1,5 +1,13 @@
-<div class="container">
-  <form #form="ngForm" (ngSubmit)="accedi(form)">
+<div
+  id="backG"
+  class="container d-flex align-items-center justify-content-center"
+>
+  <form
+    #form="ngForm"
+    class="px-3 py-4 rounded-3 text-white"
+    (ngSubmit)="accedi(form)"
+  >
+    <h1 class="text-center">Log-in</h1>
     <div class="form-group">
       <label for="email">Email</label>
       <input
@@ -11,7 +19,7 @@
         ngModel
       />
     </div>
-    <div class="form-group">
+    <div class="form-group mt-2">
       <label for="password">Password</label>
       <input
         type="password"
@@ -24,7 +32,7 @@
     </div>
     <button
       type="submit"
-      class="btn btn-primary mt-3"
+      class="btn btn-primary mt-4 w-100"
       [disabled]="form.invalid"
     >
       Accedi

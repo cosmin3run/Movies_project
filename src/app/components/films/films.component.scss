@@ -1,7 +1,22 @@
+.card-body {
+  height: 220px;
+}
+
 #p {
   display: -webkit-box;
   max-width: 200px;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+#addBtn {
+  background-color: #2d135aa4;
+}
+
+div.card {
+  img {
+    height: 300px;
+    object-fit: cover;
+  }
 }

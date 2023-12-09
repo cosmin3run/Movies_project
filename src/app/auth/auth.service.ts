@@ -33,19 +33,17 @@ export class AuthService {
 
   restore() {
     const user = localStorage.getItem('user');
-    if(!user) {
-      this.router.navigate(['/login'])
+    if (!user) {
+      this.router.navigate(['/login']);
       return;
     }
-    if(user) {
-      this.router.navigate(['/'])
-    }
+
     const userData: Auth = JSON.parse(user);
-    if (this.jwtHelper.isTokenExpired(userData.accessToken)){
-      this.router.navigate(['/login'])
+    if (this.jwtHelper.isTokenExpired(userData.accessToken)) {
+      this.router.navigate(['/login']);
       return;
     }
-    this.authSubj.next(userData)
+    this.authSubj.next(userData);
   }
 
   register(data: {
@@ -65,6 +63,15 @@ export class AuthService {
     this.authSubj.next(null);
     localStorage.removeItem('user');
     this.router.navigate(['/']);
+  }
+
+  userId(): number | null {
+    const user = localStorage.getItem('user');
+    if (user) {
+      const userData: Auth = JSON.parse(user);
+      return userData.user.id;
+    }
+    return null;
   }
 
   private errors(err: any) {

@@ -1,13 +1,25 @@
 <div class="container">
   <div class="row">
-    <div class="col-3 g-3" *ngFor="let film of films">
-      <div class="card" style="width: 18rem">
-        <img src="{{ film.poster_path }}" class="card-img-top" alt="..." />
-        <div class="card-body">
+    <div class="col-3 g-4" *ngFor="let film of films">
+      <div class="card border-0">
+        <img
+          src="http://image.tmdb.org/t/p/w500{{ film.poster_path }}"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title text-truncate">{{ film.original_title }}</h5>
           <p id="p" class="card-text">
             {{ film.overview }}
           </p>
+          <button
+            id="addBtn"
+            class="btn w-100 mt-auto"
+            (click)="aggiungiRimovi(film.id)"
+            [ngStyle]="{ color: isPreferiti(film.id) ? 'red' : 'white' }"
+          >
+            <i class="bi bi-suit-heart-fill"></i>
+          </button>
         </div>
       </div>
     </div>

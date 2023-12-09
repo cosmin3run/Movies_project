@@ -1,0 +1,32 @@
+:host {
+  height: calc(100vh - 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  background-image: url(https://images.unsplash.com/photo-1514306191717-452ec28c7814?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  width: 600px;
+  //   width: 250px;
+  background-color: #14052e88;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.48);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.48);
+  transition: all 0.5s;
+  backdrop-filter: blur(4px);
+}
+
+form:hover {
+  transform: scale(1.02);
+}
+
+button {
+  transition: all 0.4s;
+}
+button:hover {
+  -webkit-box-shadow: 0px 0px 27px 14px rgba(11, 94, 215, 0.7);
+  box-shadow: 0px 0px 27px 14px rgba(11, 94, 215, 0.7);
+}

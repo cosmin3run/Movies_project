@@ -1,5 +1,4 @@
 export interface Preferiti {
-    movieId: number;
-    userId: number;
-    id: number;
+  movieId: number;
+  userId: number;
 }

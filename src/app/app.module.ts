@@ -17,26 +17,26 @@ import { AuthGuard } from './auth/auth.guard';
 const routes: Route[] = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
-  path: 'films',
-  component: FilmsComponent,
-  canActivate: [AuthGuard]
+    path: 'films',
+    component: FilmsComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'login',
-    component: LoginComponent
+    component: LoginComponent,
   },
   {
     path: 'register',
-    component: RegisterComponent
+    component: RegisterComponent,
   },
   {
     path: '**',
-    redirectTo: ''
-  }
-]
+    redirectTo: '',
+  },
+];
 
 @NgModule({
   declarations: [
@@ -45,23 +45,22 @@ const routes: Route[] = [
     RegisterComponent,
     HomeComponent,
     NavbarComponent,
-    FilmsComponent
+    FilmsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(routes),
     FormsModule,
-    HttpClientModule
-    
+    HttpClientModule,
   ],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenInterceptor,
-      multi: true
-    }
+      multi: true,
+    },
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
