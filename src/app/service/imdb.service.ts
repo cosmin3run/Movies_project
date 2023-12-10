@@ -20,11 +20,26 @@ export class ImdbService {
     return this.http.get<Preferiti[]>(`${this.apiURL}/favorites`);
   }
 
-  addPreferiti(movieId: number, userId: number) {
+  addPreferiti(
+    movieId: number,
+    title: string,
+    overview: string,
+    yt_link: string,
+    poster_path: string,
+    release_date: string,
+    userId: number
+  ) {
     const preferiti: Preferiti = {
       movieId: movieId,
+      title: title,
       userId: userId,
+      overview: overview,
+      yt_link: yt_link,
+      poster_path: poster_path,
+      release_date: release_date,
     };
+    console.log(preferiti);
+
     return this.http.post<Preferiti>(`${this.apiURL}/favorites`, preferiti);
   }
 

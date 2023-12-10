@@ -25,11 +25,11 @@ export class FilmsComponent implements OnInit {
 
   ngOnInit(): void {
     this.authSrv.restore();
-
     this.userId = this.imdbSrv.getUserId();
 
     this.imdbSrv.recupera().subscribe((film: Film[]) => {
       this.films = film;
+
       this.userId = this.authSrv.userId() || 0;
     });
 
@@ -48,14 +48,28 @@ export class FilmsComponent implements OnInit {
     );
   }
 
-  aggiungiRimovi(movieId: number) {
+  aggiungiRimovi(
+    movieId: number,
+    title: string,
+    overview: string,
+    yt_link: string,
+    poster_path: string,
+    release_date: string
+  ) {
     if (this.isPreferiti(movieId)) {
       let val: any = this.preferiti.find((movie) => movie.movieId === movieId);
       if (val) {
         this.rimuoviPreferiti(val.id);
       }
     } else {
-      this.aggPreferiti(movieId);
+      this.aggPreferiti(
+        movieId,
+        title,
+        overview,
+        yt_link,
+        poster_path,
+        release_date
+      );
     }
   }
 
@@ -65,9 +79,24 @@ export class FilmsComponent implements OnInit {
     });
   }
 
-  aggPreferiti(movieId: number) {
+  aggPreferiti(
+    movieId: number,
+    title: string,
+    overview: string,
+    yt_link: string,
+    poster_path: string,
+    release_date: string
+  ) {
     this.imdbSrv
-      .addPreferiti(movieId, this.userId)
+      .addPreferiti(
+        movieId,
+        title,
+        overview,
+        yt_link,
+        poster_path,
+        release_date,
+        this.userId
+      )
       .subscribe((preferiti: Preferiti) => {
         this.getPrefe();
       });

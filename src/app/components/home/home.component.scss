@@ -1,0 +1,40 @@
+#noPref {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.card {
+  background-color: rgba(134, 67, 134, 0.458);
+  backdrop-filter: blur(4px);
+}
+.pref-card {
+  background-color: rgba(134, 67, 134, 0.458);
+  backdrop-filter: blur(4px);
+  padding: 20px;
+  border: solid 3px purple;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  background-color: rgba(102, 34, 102, 0.656);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+span {
+  color: rgba(204, 198, 198, 0.859);
+  display: block;
+  text-align: right;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+img {
+  width: 300px;
+  padding: 30px;
+}
+
+.background {
+  background-image: url(https://img.freepik.com/free-vector/seamless-pattern-with-cinema-elements_225004-1155.jpg?w=740&t=st=1702249003~exp=1702249603~hmac=98bbed53ab7ad379a4c4fa55dc8f59fa5f47a97055691a8fd9a2b9fcd93d597f);
+}

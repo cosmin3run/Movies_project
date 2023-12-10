@@ -17,24 +17,54 @@
   ],
   "favorites": [
     {
-      "movieId": 632357,
+      "movieId": 460465,
+      "title": "Mortal Kombat",
       "userId": 3,
-      "id": 2
-    },
-    {
-      "movieId": 578701,
-      "userId": 3,
+      "overview": "Un pugile fallito scopre un segreto di famiglia che lo conduce ad un torneo mistico chiamato Mortal Kombat. Qui incontra un gruppo di guerrieri che combattono fino alla morte per salvare i regni dal malvagio stregone Shang Tsung.",
+      "yt_link": "https://www.youtube.com/embed/CjiDNwx-W8Y?si=Cxw_B51tRPvFYh6l",
+      "poster_path": "/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
+      "release_date": "2021-04-07",
       "id": 3
     },
     {
-      "movieId": 578701,
-      "userId": 2,
+      "movieId": 567189,
+      "title": "Tom Clancy's Without Remorse",
+      "userId": 3,
+      "overview": "John Kelly, un ex membro dei Navy SEAL, nel tentativo di vendicare l’omicidio di sua moglie, si ritroverà invischiato in una cospirazione ben più grande e pericolosa di quanto avrebbe potuto mai immaginare.",
+      "yt_link": "https://www.youtube.com/embed/e-rw2cxFVLg",
+      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "release_date": "2021-04-29",
       "id": 4
     },
     {
-      "movieId": 460465,
-      "userId": 2,
+      "movieId": 578701,
+      "title": "Those Who Wish Me Dead",
+      "userId": 3,
+      "overview": "Un ragazzino, dopo essere stato testimone di un omicidio, si ritrova inseguito da due gemelli assassini nella natura selvaggia del Montana. Con lui c'è un'esperta di sopravvivenza, incaricata di proteggerlo. Un incendio nei boschi minaccerà però la vita di tutti quanti.",
+      "yt_link": "https://www.youtube.com/watch?v=sV6VNNjBkcE",
+      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
+      "release_date": "2021-05-05",
       "id": 5
+    },
+    {
+      "movieId": 632357,
+      "title": "The Unholy",
+      "userId": 3,
+      "overview": "Alice è una giovane ragazza con problemi di udito. Questa, dopo una presunta visita della Vergine Maria, è inspiegabilmente in grado di ascoltare, parlare e curare i malati. Mentre la voce si diffonde e le persone vicine e lontane accorrono per assistere ai suoi miracoli, un giornalista caduto in disgrazia che spera di rilanciare la sua carriera visita la piccola città del New England per indagare. Quando eventi terrificanti iniziano ad accadere attorno alla giovane miracolata, il giornalista inizia a chiedersi se questi fenomeni siano opera della Vergine Maria o qualcosa di molto più sinistro.",
+      "yt_link": "https://www.youtube.com/watch?v=NmQiJPLYzPI",
+      "poster_path": "/dxBTcvdH9d6apXZGnThPIVEJ376.jpg",
+      "release_date": "2021-03-31",
+      "id": 6
+    },
+    {
+      "movieId": 573680,
+      "title": "The Banishing",
+      "userId": 3,
+      "overview": "Victoria è una giovane madre che cerca di lasciarsi alle spalle il suo oscuro passato di spacciatrice. Il poliziotto in pensione Damon, però, la costringe a eseguire i suoi ordini in quanto tiene sua figlia in ostaggio.",
+      "yt_link": "https://www.youtube.com/watch?v=-ZiAuxBOcHo",
+      "poster_path": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
+      "release_date": "2021-04-29",
+      "id": 7
     }
   ],
   "movies-popular": [
@@ -46,6 +76,7 @@
         14,
         12
       ],
+      "yt_link": "https://www.youtube.com/embed/CjiDNwx-W8Y?si=Cxw_B51tRPvFYh6l",
       "id": 460465,
       "original_language": "en",
       "original_title": "Mortal Kombat",
@@ -66,6 +97,7 @@
         53,
         10752
       ],
+      "yt_link": "https://www.youtube.com/embed/e-rw2cxFVLg",
       "id": 567189,
       "original_language": "en",
       "original_title": "Tom Clancy's Without Remorse",
@@ -87,6 +119,7 @@
         28,
         9648
       ],
+      "yt_link": "https://www.youtube.com/watch?v=sV6VNNjBkcE",
       "id": 578701,
       "original_language": "en",
       "original_title": "Those Who Wish Me Dead",
@@ -105,6 +138,7 @@
       "genre_ids": [
         27
       ],
+      "yt_link": "https://www.youtube.com/watch?v=NmQiJPLYzPI",
       "id": 632357,
       "original_language": "en",
       "original_title": "The Unholy",
@@ -125,6 +159,7 @@
         80,
         53
       ],
+      "yt_link": "https://www.youtube.com/watch?v=fUElfp3DJ5Y",
       "id": 804435,
       "original_language": "en",
       "original_title": "Vanquish",
@@ -144,6 +179,7 @@
         28,
         878
       ],
+      "yt_link": "https://www.youtube.com/watch?v=lV1OOlGwExM",
       "id": 399566,
       "original_language": "en",
       "original_title": "Godzilla vs. Kong",
@@ -165,6 +201,7 @@
         80,
         35
       ],
+      "yt_link": "https://www.youtube.com/watch?v=_2un1aU7mT0",
       "id": 615457,
       "original_language": "en",
       "original_title": "Nobody",
@@ -183,6 +220,7 @@
       "genre_ids": [
         27
       ],
+      "yt_link": "https://www.youtube.com/watch?v=-ZiAuxBOcHo",
       "id": 573680,
       "original_language": "en",
       "original_title": "The Banishing",
@@ -203,6 +241,7 @@
         28,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=1tkYmhXVqdA",
       "id": 808023,
       "original_language": "en",
       "original_title": "The Virtuoso",
@@ -223,6 +262,7 @@
         80,
         18
       ],
+      "yt_link": "https://www.youtube.com/watch?v=qs9_5Ipc20E",
       "id": 717192,
       "original_language": "nl",
       "original_title": "Ferry",
@@ -245,6 +285,7 @@
         14,
         18
       ],
+      "yt_link": "https://www.youtube.com/watch?v=ATJYac_dORw",
       "id": 635302,
       "original_language": "ja",
       "original_title": "劇場版「鬼滅の刃」無限列車編",
@@ -266,6 +307,7 @@
         14,
         878
       ],
+      "yt_link": "https://www.youtube.com/watch?v=8il3AM0IygA",
       "id": 791373,
       "original_language": "en",
       "original_title": "Zack Snyder's Justice League",
@@ -287,6 +329,7 @@
         9648,
         53
       ],
+      "yt_link": "https://www.youtube.com/watch?v=v1p7MAFjNWk",
       "id": 823855,
       "original_language": "en",
       "original_title": "I Am All Girls",
@@ -307,6 +350,7 @@
         16,
         35
       ],
+      "yt_link": "https://www.youtube.com/watch?v=VJUnC2j9rgo",
       "id": 811367,
       "original_language": "en",
       "original_title": "22 vs. Earth",
@@ -329,6 +373,7 @@
         10751,
         28
       ],
+      "yt_link": "https://www.youtube.com/watch?v=1VIZ89FEjYI",
       "id": 527774,
       "original_language": "en",
       "original_title": "Raya and the Last Dragon",
@@ -350,6 +395,7 @@
         10751,
         12
       ],
+      "yt_link": "https://www.youtube.com/watch?v=_Bwkbnp-ECQ",
       "id": 726684,
       "original_language": "fr",
       "original_title": "Miraculous World : Shanghai, la légende de Ladydragon",
@@ -370,6 +416,7 @@
         35,
         14
       ],
+      "yt_link": "https://www.youtube.com/watch?v=zZqPA6GfIqQ",
       "id": 813258,
       "original_language": "en",
       "original_title": "Monster Pets: A Hotel Transylvania Short",
@@ -389,6 +436,7 @@
         878,
         28
       ],
+      "yt_link": "https://www.youtube.com/watch?v=NJXQwf-7i2I",
       "id": 586047,
       "original_language": "ko",
       "original_title": "서복",
@@ -409,6 +457,7 @@
         27,
         53
       ],
+      "yt_link": "https://www.youtube.com/watch?v=tI1JGPhYBS8",
       "id": 503736,
       "original_language": "en",
       "original_title": "Army of the Dead",
@@ -429,6 +478,7 @@
         53,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=-PNZh5TIJxw",
       "id": 634528,
       "original_language": "en",
       "original_title": "The Marksman",
@@ -449,6 +499,7 @@
         18,
         10749
       ],
+      "yt_link": "https://www.youtube.com/watch?v=-bNwqXvMuB8",
       "id": 19404,
       "original_language": "hi",
       "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
@@ -467,6 +518,7 @@
       "genre_ids": [
         10749
       ],
+      "yt_link": "https://www.youtube.com/watch?v=5g02v1oz5Y0",
       "id": 724089,
       "original_language": "en",
       "original_title": "Gabriel's Inferno Part II",
@@ -486,6 +538,7 @@
         18,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=PLl99DlL6b4",
       "id": 278,
       "original_language": "en",
       "original_title": "The Shawshank Redemption",
@@ -504,6 +557,7 @@
       "genre_ids": [
         10749
       ],
+      "yt_link": "https://www.youtube.com/watch?v=kgWFjmiqHmQ",
       "id": 696374,
       "original_language": "en",
       "original_title": "Gabriel's Inferno",
@@ -526,6 +580,7 @@
         18,
         10749
       ],
+      "yt_link": "दिलवाले दुल्हनिया ले जायेंगे",
       "id": 19404,
       "original_language": "hi",
       "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
@@ -544,6 +599,7 @@
       "genre_ids": [
         10749
       ],
+      "yt_link": "https://www.youtube.com/watch?v=5g02v1oz5Y0&t=1s",
       "id": 724089,
       "original_language": "en",
       "original_title": "Gabriel's Inferno Part II",
@@ -563,6 +619,7 @@
         18,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=PLl99DlL6b4",
       "id": 278,
       "original_language": "en",
       "original_title": "The Shawshank Redemption",
@@ -582,6 +639,7 @@
         18,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=eZHsmb4ezEk",
       "id": 238,
       "original_language": "en",
       "original_title": "The Godfather",
@@ -601,6 +659,7 @@
         10749,
         35
       ],
+      "yt_link": "https://www.youtube.com/watch?v=mjPUGem9SaY",
       "id": 761053,
       "original_language": "en",
       "original_title": "Gabriel's Inferno Part III",
@@ -619,6 +678,7 @@
       "genre_ids": [
         10749
       ],
+      "yt_link": "https://www.youtube.com/watch?v=kgWFjmiqHmQ&t=9s",
       "id": 696374,
       "original_language": "en",
       "original_title": "Gabriel's Inferno",
@@ -639,6 +699,7 @@
         36,
         10752
       ],
+      "yt_link": "https://www.youtube.com/watch?v=x_od2YfftD4",
       "id": 424,
       "original_language": "en",
       "original_title": "Schindler's List",
@@ -658,6 +719,7 @@
         18,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=gCdXiOssbM0",
       "id": 240,
       "original_language": "en",
       "original_title": "The Godfather: Part II",
@@ -678,6 +740,7 @@
         16,
         18
       ],
+      "yt_link": "https://www.youtube.com/watch?v=k4xGqY5IDBE",
       "id": 372058,
       "original_language": "ja",
       "original_title": "君の名は。",
@@ -698,6 +761,7 @@
         10751,
         14
       ],
+      "yt_link": "https://www.youtube.com/watch?v=VbyyPguM4Tc",
       "id": 129,
       "original_language": "ja",
       "original_title": "千と千尋の神隠し",
@@ -718,6 +782,7 @@
         53,
         18
       ],
+      "yt_link": "https://www.youtube.com/watch?v=z8eUohRgrTU",
       "id": 496243,
       "original_language": "ko",
       "original_title": "기생충",
@@ -739,6 +804,7 @@
         16,
         14
       ],
+      "yt_link": "https://www.youtube.com/watch?v=d_Z_tybgPgg",
       "id": 441130,
       "original_language": "en",
       "original_title": "Wolfwalkers",
@@ -759,6 +825,7 @@
         18,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=CmxArNBJHFQ",
       "id": 497,
       "original_language": "en",
       "original_title": "The Green Mile",
@@ -778,6 +845,7 @@
         18,
         10749
       ],
+      "yt_link": "https://www.youtube.com/watch?v=l_NRguVzZrw",
       "id": 447362,
       "original_language": "en",
       "original_title": "Life in a Year",
@@ -799,6 +867,7 @@
         14,
         12
       ],
+      "yt_link": "https://www.youtube.com/watch?v=N8ADUq35VAg",
       "id": 592350,
       "original_language": "ja",
       "original_title": "僕のヒーローアカデミア THE MOVIE ヒーローズ：ライジング",
@@ -818,6 +887,7 @@
         53,
         80
       ],
+      "yt_link": "https://www.youtube.com/watch?v=foLLGDOHzKI",
       "id": 680,
       "original_language": "en",
       "original_title": "Pulp Fiction",
@@ -836,6 +906,7 @@
       "genre_ids": [
         18
       ],
+      "yt_link": "https://www.youtube.com/watch?v=TUzp2XUhskY",
       "id": 389,
       "original_language": "en",
       "original_title": "12 Angry Men",
@@ -856,6 +927,7 @@
         10402,
         18
       ],
+      "yt_link": "https://www.youtube.com/watch?v=DSCKfXpAGHc",
       "id": 556574,
       "original_language": "en",
       "original_title": "Hamilton",
@@ -877,6 +949,7 @@
         14,
         878
       ],
+      "yt_link": "https://www.youtube.com/watch?v=8il3AM0IygA",
       "id": 791373,
       "original_language": "en",
       "original_title": "Zack Snyder's Justice League",
@@ -899,6 +972,7 @@
         18,
         14
       ],
+      "yt_link": "https://www.youtube.com/watch?v=R_dtHtPOpTs",
       "id": 572154,
       "original_language": "ja",
       "original_title": "青春ブタ野郎はゆめみる少女の夢を見ない",

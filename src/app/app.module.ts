@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { TokenInterceptor } from './auth/token.interceptor';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
@@ -18,6 +17,7 @@ const routes: Route[] = [
   {
     path: '',
     component: HomeComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'films',
@@ -49,7 +49,7 @@ const routes: Route[] = [
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+
     RouterModule.forRoot(routes),
     FormsModule,
     HttpClientModule,

@@ -1,1 +1,38 @@
-<p>home works!</p>
+<div class="background">
+  <div class="container">
+    <div class="card text-center text-white">
+      <div class="card-header mt-4">Utente attuale</div>
+      <div class="card-body">
+        <h1 class="card-title mb-4">Informazioni su {{ nome }}</h1>
+        <p class="card-text">Nome: {{ nome }}</p>
+        <p class="card-text">Cognome: {{ cognome }}</p>
+        <p class="card-text">Email: {{ email }}</p>
+      </div>
+    </div>
+    <h2 id="noPref"></h2>
+    <div *ngFor="let preferito of preferiti" class="row pref-card z-1">
+      <div class="col-4">
+        <img
+          src="http://image.tmdb.org/t/p/w500{{ preferito.poster_path }}"
+          alt="movie-poster"
+        />
+      </div>
+      <div class="col-8 p-3">
+        <div class="card-title text-white">
+          <h2>{{ preferito.title }}</h2>
+          <span>Release date : {{ preferito.release_date }}</span>
+          <p>{{ preferito.overview }}</p>
+          <!-- <iframe
+            width="560"
+            height="315"
+            src="{{ safeUrl }}"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

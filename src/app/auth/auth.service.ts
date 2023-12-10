@@ -16,7 +16,9 @@ export class AuthService {
   user$ = this.authSubj.asObservable();
   utente!: Auth;
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router) {
+    this.restore();
+  }
 
   login(data: { email: string; password: string }) {
     return this.http.post<Auth>(`${this.apiURL}/login`, data).pipe(
@@ -41,7 +43,8 @@ export class AuthService {
     const userData: Auth = JSON.parse(user);
     if (this.jwtHelper.isTokenExpired(userData.accessToken)) {
       this.router.navigate(['/login']);
-      return;
+    } else {
+      this.router.navigate(['/films']);
     }
     this.authSubj.next(userData);
   }

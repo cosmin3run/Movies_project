@@ -1,3 +1,18 @@
 nav {
   height: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(184, 96, 184, 0.719);
+  backdrop-filter: blur(4px);
+}
+
+a {
+  background-color: rgba(102, 34, 102, 0.656);
+  backdrop-filter: blur(15px);
+
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-inline: 5px;
 }

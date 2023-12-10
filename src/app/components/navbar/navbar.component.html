@@ -1,7 +1,5 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand">IMDB</a>
-
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
     <div
       class="collapse navbar-collapse justify-content-between"
       id="navbarNav"
@@ -12,8 +10,9 @@
             class="nav-link active"
             [routerLink]="['/']"
             routerLinkActive="active"
+            *ngIf="utente"
             [routerLinkActiveOptions]="{ exact: true }"
-            >Home</a
+            >Utente</a
           >
         </li>
         <li class="nav-item" *ngIf="utente">
@@ -41,15 +40,19 @@
           >
         </li>
       </ul>
-      <h6 class="ma-auto" *ngIf="utente">Benvenuto {{ utente.user.nome }}</h6>
-      <button
-        type="button"
-        class="btn btn-danger ms-2 float-end"
-        *ngIf="utente"
-        (click)="logout()"
-      >
-        Logout
-      </button>
+      <div class="d-flex align-items-center">
+        <h6 class="ma-auto d-inline me-3" *ngIf="utente">
+          Benvenuto {{ utente.user.nome }}!
+        </h6>
+        <button
+          type="button"
+          class="btn btn-danger ms-2 float-end"
+          *ngIf="utente"
+          (click)="logout()"
+        >
+          Logout
+        </button>
+      </div>
     </div>
   </div>
 </nav>
